@@ -6,7 +6,7 @@
 	 
 	 public function __construct()
 	 { 
-		 $this->pdo = new PDO('mysql:server=localhost;dbname=note', 'root', '');
+		 $this->pdo = new PDO('mysql:server=localhost;dbname=penang_flick', 'root', '');
 		 $this->pdo -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	 }
 	 
